@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>发布详情 - 网站名称</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">网站名称</a>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="搜索...">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="publish.html">发布</a></li>
+                <li><a href="notifications.html">通知</a></li>
+                <li><a href="profile.html"><img src="user-avatar.jpg" alt="用户头像"></a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main id="post-detail">
+        <div class="carousel">
+            <div class="carousel-images">
+                <!-- 图片将通过 JavaScript 动态加载 -->
+            </div>
+        </div>
+        <div class="post-info">
+            <h1 id="post-title"></h1>
+            <div class="author-info">
+                <img id="author-avatar" src="" alt="作者头像">
+                <span id="author-name"></span>
+            </div>
+            <p id="post-description"></p>
+            <p id="post-time"></p>
+        </div>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@6/swiper-bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页 - 网站名称</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">网站名称</a>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="搜索...">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="publish.html">发布</a></li>
+                <li><a href="notifications.html">通知</a></li>
+                <li><a href="profile.html"><img src="user-avatar.jpg" alt="用户头像"></a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main id="profile">
+        <div id="user-posts" class="masonry-grid">
+            <!-- 用户发布内容将通过 JavaScript 动态加载 -->
+        </div>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

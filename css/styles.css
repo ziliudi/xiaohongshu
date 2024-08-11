@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.search-bar input {
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    width: 300px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.masonry-grid {
+    column-count: 3;
+    column-gap: 15px;
+}
+
+.masonry-item {
+    break-inside: avoid;
+    margin-bottom: 15px;
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel-images img {
+    width: 100%;
+}
+
+.post-info {
+    margin-top: 20px;
+}
+
+.author-info img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.author-info span {
+    margin-left: 10px;
+}
