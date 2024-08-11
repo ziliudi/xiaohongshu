@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>首页 - 网站名称</title>
+    <title>登录 - 网站名称</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -21,14 +21,18 @@
         </nav>
     </header>
     
-    <main id="home">
-        <div id="posts" class="masonry-grid">
-            <!-- 发布内容将通过 JavaScript 动态加载 -->
-        </div>
+    <main id="login">
+        <form id="login-form">
+            <label for="username">用户名:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">密码:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">登录</button>
+        </form>
     </main>
-    
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
     <script src="js/scripts.js"></script>
 </body>
 </html>
